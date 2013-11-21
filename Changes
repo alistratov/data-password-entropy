@@ -1,5 +1,9 @@
 Revision history for Data-Password-Entropy
 
+0.08    2013-11-21
+        Change builder to ExtUtils::MakeMaker
+        Fix link to repository (thanks to David Steinbrunner, https://github.com/dsteinbrunner)
+
 0.07    2010-10-15
         Minimum version of Test::More is 0.88 (method isa_ok() could work with classes)
 

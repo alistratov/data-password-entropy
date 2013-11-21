@@ -8,7 +8,7 @@ use warnings;
 use Encode;
 use POSIX qw(floor);
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 # ==============================================================================
 
