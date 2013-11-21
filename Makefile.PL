@@ -9,6 +9,18 @@ WriteMakefile(
     VERSION_FROM     => 'lib/Data/Password/Entropy.pm',
     ABSTRACT_FROM    => 'lib/Data/Password/Entropy.pm',
     LICENSE          => 'Artistic_2_0',
+
+    META_MERGE => {
+      'meta-spec' => { version => 2 },
+      resources => {
+        repository => {
+          type => 'git',
+          url => 'https://github.com/alistratov/data-password-entropy.git',
+          web => 'https://github.com/alistratov/data-password-entropy',
+        },
+      },
+    },
+    
     PL_FILES         => {},
     INSTALLDIRS      => 'site',
     MIN_PERL_VERSION => 5.006,

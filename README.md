@@ -1,18 +1,9 @@
-Data-Password-Entropy
+# Data-Password-Entropy
+[![Build Status](https://travis-ci.org/alistratov/data-password-entropy.png?branch=master)](https://travis-ci.org/alistratov/data-password-entropy)
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+A Perl module to calculate password strength.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
-
-
-INSTALLATION
+## INSTALLATION
 
 To install this module, run the following commands:
 
@@ -21,12 +12,12 @@ To install this module, run the following commands:
 	make test
 	make install
 
-SUPPORT AND DOCUMENTATION
+## SUPPORT AND DOCUMENTATION
 
 After installing, you can find documentation for this module with the
 perldoc command.
 
-    perldoc Data::Password::Entropy
+	perldoc Data::Password::Entropy
 
 You can also look for information at:
 
@@ -43,15 +34,12 @@ You can also look for information at:
         http://search.cpan.org/dist/Data-Password-Entropy/
 
 
-LICENSE AND COPYRIGHT
+## LICENSE AND COPYRIGHT
 
 Copyright (C) 2013 Oleg Alistratov
 
 This program is free software; you can redistribute it and/or modify it
-under the terms of the the Artistic License (2.0). You may obtain a
-copy of the full license at:
-
-L<http://www.perlfoundation.org/artistic_license_2_0>
+under the terms of the the [Artistic License 2.0](http://www.perlfoundation.org/artistic_license_2_0).
 
 Any use, modification, and distribution of the Standard or Modified
 Versions is governed by this Artistic License. By using, modifying or
