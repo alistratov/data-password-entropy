@@ -20,19 +20,10 @@ perldoc command.
 	perldoc Data::Password::Entropy
 
 You can also look for information at:
-
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-Password-Entropy
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Data-Password-Entropy
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Data-Password-Entropy
-
-    Search CPAN
-        http://search.cpan.org/dist/Data-Password-Entropy/
-
+ * [RT, CPAN's request tracker (report bugs here)](http://rt.cpan.org/NoAuth/Bugs.html?Dist=Data-Password-Entropy)
+ * [AnnoCPAN, Annotated CPAN documentation](http://annocpan.org/dist/Data-Password-Entropy)
+ * [CPAN Ratings](http://cpanratings.perl.org/d/Data-Password-Entropy)
+ * [Search CPAN](http://search.cpan.org/dist/Data-Password-Entropy/)
 
 ## LICENSE AND COPYRIGHT
 
