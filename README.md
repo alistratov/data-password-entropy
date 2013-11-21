@@ -1,7 +1,9 @@
-# Data-Password-Entropy
+# Data::Password::Entropy
 [![Build Status](https://travis-ci.org/alistratov/data-password-entropy.png?branch=master)](https://travis-ci.org/alistratov/data-password-entropy)
 
-A Perl module to calculate password strength.
+A Perl module provides a function to determine the password strength,
+based on its information entropy (unlike other similar modules that
+check the password based on a set of rules).
 
 ## INSTALLATION
 
