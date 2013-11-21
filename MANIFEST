@@ -1,5 +1,5 @@
-Build.PL
 Changes
+Makefile.PL
 MANIFEST
 README
 lib/Data/Password/Entropy.pm
@@ -8,5 +8,3 @@ t/2-entropy.t
 t/3-widechar.t
 t/pod-coverage.t
 t/pod.t
-Makefile.PL
-META.yml
