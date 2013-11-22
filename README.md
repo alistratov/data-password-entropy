@@ -29,7 +29,7 @@ You can also look for information at:
 
 ## License and Copyright
 
-Copyright © 2013 Oleg Alistratov
+Copyright © 2010-2013 Oleg Alistratov
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the
