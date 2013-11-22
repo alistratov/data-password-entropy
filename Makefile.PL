@@ -8,7 +8,7 @@ WriteMakefile(
     AUTHOR           => q{Oleg Alistratov <zero@cpan.org>},
     VERSION_FROM     => 'lib/Data/Password/Entropy.pm',
     ABSTRACT_FROM    => 'lib/Data/Password/Entropy.pm',
-    LICENSE          => 'Artistic_2_0',
+    LICENSE          => 'artistic_2',
 
     META_MERGE => {
       'meta-spec' => { version => 2 },
