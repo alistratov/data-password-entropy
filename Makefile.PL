@@ -1,4 +1,4 @@
-use 5.006;
+use 5.008;
 use strict;
 use warnings FATAL => 'all';
 use ExtUtils::MakeMaker;
@@ -20,10 +20,10 @@ WriteMakefile(
         },
       },
     },
-    
+
     PL_FILES         => {},
     INSTALLDIRS      => 'site',
-    MIN_PERL_VERSION => 5.006,
+    MIN_PERL_VERSION => 5.008,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
     },
