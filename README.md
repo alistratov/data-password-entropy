@@ -5,7 +5,7 @@ A Perl module provides a function to determine the password strength,
 based on its information entropy (unlike other similar modules that
 check the password based on a set of rules).
 
-## INSTALLATION
+## Installation
 
 To install this module, run the following commands:
 
@@ -14,7 +14,7 @@ To install this module, run the following commands:
 	make test
 	make install
 
-## SUPPORT AND DOCUMENTATION
+## Support and Documentation
 
 After installing, you can find documentation for this module with the
 perldoc command.
@@ -27,12 +27,13 @@ You can also look for information at:
  * [CPAN Ratings](http://cpanratings.perl.org/d/Data-Password-Entropy)
  * [Search CPAN](http://search.cpan.org/dist/Data-Password-Entropy/)
 
-## LICENSE AND COPYRIGHT
+## License and Copyright
 
-Copyright (C) 2013 Oleg Alistratov
+Copyright © 2013 Oleg Alistratov
 
 This program is free software; you can redistribute it and/or modify it
-under the terms of the the [Artistic License 2.0](http://www.perlfoundation.org/artistic_license_2_0).
+under the terms of the the
+[Artistic License 2.0](http://www.perlfoundation.org/artistic_license_2_0).
 
 Any use, modification, and distribution of the Standard or Modified
 Versions is governed by this Artistic License. By using, modifying or
