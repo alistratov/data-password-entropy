@@ -160,6 +160,7 @@ __END__
 
 Data::Password::Entropy - Calculate password strength
 
+
 =head1 SYNOPSIS
 
     use Data::Password::Entropy;
@@ -191,19 +192,22 @@ we calculate the I<effective length> of the password to ensure the next rules:
 so C<'1234'> is weaker password than C<'1342'>,
 
 =item * repeating sequences decrease total entropy,
-so C<'a' x 100> insignificantly stronger than C<'a' x 4> (it may seem, that's too insignificantly).
+so C<'a' x 100> insignificantly stronger than C<'a' x 4> (it may seem, that's
+too insignificantly).
 
 =back
 
 Do not expect too much: an algorithm does not check the password's weakness with
 dictionary lookup (see L<Data::Password>). Also it can not detect obfuscation
-like C<'p@ssw0rd'>, sequences from a keyboard row or personally related information.
+like C<'p@ssw0rd'>, sequences from a keyboard row or personally related
+information.
 
-Probability of characters occurring depends on the capacity of character class only.
-Perhaps, it should be taken into account a prevalence of symbol class actually E<mdash>
-it is very unlikely to find a control character in the password. But common password
-policies don't allow control characters, spaces or extended characters in passwords,
-therefore, so they should not occur in practice.
+Probability of characters occurring depends on the capacity of character class
+only. Perhaps, it should be taken into account a prevalence of symbol class
+actually E<mdash> it is very unlikely to find a control character
+in the password. But common password policies don't allow control characters,
+spaces or extended characters in passwords, therefore, so they should
+not occur in practice.
 
 Similarly, there is no well-defined approach to process national characters.
 For example, the Greek letters block in Unicode Character Database contains
@@ -218,7 +222,8 @@ So, data are treated as a bytes string, not a wide-character string,
 and all characters with codes higher than 127 form one class.
 
 The character classes based on the ASCII encoding. If you have something else,
-e.g. EBCDIC, you can try something like the L<Encode> or L<Convert::EBCDIC> modules.
+e.g. EBCDIC, you can try something like the L<Encode> or L<Convert::EBCDIC>
+modules.
 
 
 =head1 FUNCTIONS
@@ -243,9 +248,10 @@ L<http://en.wikipedia.org/wiki/Password_strength>
 "A Conceptual Framework for Assessing Password Quality" by Wanli Ma, John Campbell, Dat Tran, and Dale Kleeman [PDF]
 L<http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.98.3266&rep=rep1&type=pdf>
 
+
 =head1 COPYRIGHT
 
-Copyright (c) 2010 Oleg Alistratov. All rights reserved.
+Copyright E<0x00a9> 2010-2013 Oleg Alistratov. All rights reserved.
 
 This module is free software.  You can redistribute it and/or
 modify it under the terms of the Artistic License 2.0.
@@ -253,6 +259,7 @@ modify it under the terms of the Artistic License 2.0.
 This program is distributed in the hope that it will be useful,
 but without any warranty; without even the implied warranty of
 merchantability or fitness for a particular purpose.
+
 
 =head1 AUTHOR
 
